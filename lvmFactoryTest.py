@@ -29,6 +29,7 @@ disks=[sdc,sdd]
 for i in disks:
   b.recursiveRemove(i)
 
+add by branch twuVirt
 for i in disks:
   b.initializeDisk(i)
 
