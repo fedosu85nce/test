@@ -17,7 +17,7 @@ def set_up_logging():
     program_log.addHandler(handler)
 
 set_up_logging()
-
+instert at line 20
 import blivet
 b=blivet.Blivet()
 b.reset()
